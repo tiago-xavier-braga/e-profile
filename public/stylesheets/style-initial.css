@@ -1,0 +1,83 @@
+html {
+    font-size: 1.5rem;
+}
+
+body {
+    background-color: #333333;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgba(18, 18, 18, 0.5);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2% 0;
+}
+
+.Profile {
+    font-size: 1rem;
+    text-decoration: none;
+    color: snow;
+    transition: 0.5s;
+    font-family: Roboto;
+    margin-right: 2%;
+    background-color: transparent;
+    border: none;
+}
+
+.Profile:hover {
+    font: 1rem;
+    text-decoration: none;
+    color: turquoise;
+    transition: 0.5s;
+    font-family: Roboto;
+}
+
+.logo {
+    width: 75px;
+    margin-left: 2%;
+}
+
+.frase {
+    margin-top: 130px;
+    color: snow;
+    font-family: Roboto;
+    margin-left: 435px;
+    transition: 0.4s;
+}
+
+.subfrase {
+    color: snow;
+    font-family: Roboto;
+    margin-left: 520px;
+    margin-top: -15px;
+    transition: 0.4s;
+}
+
+.frase:hover {
+    margin-top: 130px;
+    color: turquoise;
+    font-family: Roboto;
+    margin-left: 435px;
+    transition: 0.4s;
+    cursor: default;
+}
+
+.subfrase:hover {
+    color: turquoise;
+    font-family: Roboto;
+    margin-left: 520px;
+    margin-top: -15px;
+    transition: 0.4s;
+    cursor: default;
+}
+
+footer {
+    color: snow;
+    font: Roboto;
+    margin-top: 238px;
+    font-size: 0.5rem;
+}
