@@ -49,14 +49,6 @@ header {
     transition: 0.4s;
 }
 
-.subfrase {
-    color: snow;
-    font-family: Roboto;
-    margin-left: 520px;
-    margin-top: -15px;
-    transition: 0.4s;
-}
-
 .frase:hover {
     margin-top: 130px;
     color: turquoise;
@@ -64,6 +56,14 @@ header {
     margin-left: 435px;
     transition: 0.4s;
     cursor: default;
+}
+
+.subfrase {
+    color: snow;
+    font-family: Roboto;
+    margin-left: 520px;
+    margin-top: -15px;
+    transition: 0.4s;
 }
 
 .subfrase:hover {
