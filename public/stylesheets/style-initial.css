@@ -17,6 +17,17 @@ header {
     padding: 2% 0;
 }
 
+.frases {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    margin: 0 auto;
+}
+
 .Profile {
     font-size: 1rem;
     text-decoration: none;
@@ -45,7 +56,7 @@ header {
     margin-top: 130px;
     color: snow;
     font-family: Roboto;
-    margin-left: 435px;
+    /*margin-left: 435px;*/
     transition: 0.4s;
 }
 
@@ -53,7 +64,7 @@ header {
     margin-top: 130px;
     color: turquoise;
     font-family: Roboto;
-    margin-left: 435px;
+    /*margin-left: 435px;*/
     transition: 0.4s;
     cursor: default;
 }
@@ -61,7 +72,7 @@ header {
 .subfrase {
     color: snow;
     font-family: Roboto;
-    margin-left: 520px;
+    /*margin-left: 520px;*/
     margin-top: -15px;
     transition: 0.4s;
 }
@@ -69,15 +80,9 @@ header {
 .subfrase:hover {
     color: turquoise;
     font-family: Roboto;
-    margin-left: 520px;
+    /*margin-left: 520px;*/
     margin-top: -15px;
     transition: 0.4s;
     cursor: default;
 }
 
-footer {
-    color: snow;
-    font: Roboto;
-    margin-top: 238px;
-    font-size: 0.5rem;
-}
