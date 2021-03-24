@@ -22,9 +22,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     width: 100%;
-
     margin: 0 auto;
 }
 
@@ -85,4 +83,3 @@ header {
     transition: 0.4s;
     cursor: default;
 }
-
