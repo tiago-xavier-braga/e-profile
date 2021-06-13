@@ -16,13 +16,26 @@
     <header>
         <img class="logo" src="image/Logo.png" alt="">
         <a class="Profile" href="Login-register.html">My profile</a>
-
     </header>
 
     <div class="frases">
-        <h1 class="frase">Have your profile</h1>
-        <p class="subfrase">always updated</p>
+        <h1>Have your profile</h1>
+        <p>always updated</p>
     </div>
+    <div>
+        <input type="checkbox" class="checkbox" id="chk" />
+        <label class="label" for="chk">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <div class="ball"></div>
+        </label>
+    </div>
+    <script>
+        const chk = document.getElementById('chk');
 
+        chk.addEventListener('change', () => {
+            document.body.classList.toggle('white');
+        })
+    </script>
 
 </html>

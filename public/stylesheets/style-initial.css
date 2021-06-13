@@ -50,7 +50,7 @@ header {
     margin-left: 2%;
 }
 
-.frase {
+h1 {
     margin-top: 130px;
     color: snow;
     font-family: Roboto;
@@ -58,7 +58,7 @@ header {
     transition: 0.4s;
 }
 
-.frase:hover {
+h1:hover {
     margin-top: 130px;
     color: turquoise;
     font-family: Roboto;
@@ -67,19 +67,90 @@ header {
     cursor: default;
 }
 
-.subfrase {
+p {
     color: snow;
     font-family: Roboto;
-    /*margin-left: 520px;*/
     margin-top: -16px;
     transition: 0.4s;
 }
 
-.subfrase:hover {
+p:hover {
     color: turquoise;
     font-family: Roboto;
-    /*margin-left: 520px;*/
     margin-top: -16px;
     transition: 0.4s;
     cursor: default;
+}
+
+body.white {
+    background: #ffffff;
+}
+
+.white h1 {
+    color: rgb(12, 12, 12);
+}
+
+.white h1:hover {
+    color: rgb(204, 5, 5);
+}
+
+.white p {
+    color: rgb(12, 12, 12);
+}
+
+.white p {
+    color: rgb(12, 12, 12);
+}
+
+.white p:hover {
+    color: rgb(204, 5, 5);
+}
+
+.white header {
+    background-color: rgba(226, 225, 225, 0.5);
+}
+
+.white .Profile {
+    color: rgb(12, 12, 12);
+}
+
+.white .Profile:hover {
+    color: rgb(204, 5, 5);
+}
+
+.checkbox {
+    opacity: 0;
+    position: absolute;
+}
+
+.label {
+    margin-top: 200px;
+    margin-left: 25px;
+    background-color: #111;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    height: 15px;
+    width: 40px;
+    transform: scale(1.5);
+}
+
+.label .ball {
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: 22px;
+    width: 22px;
+    transform: translateX(0px);
+    transition: transform 0.2s linear;
+}
+
+.checkbox:checked+.label .ball {
+    transform: translateX(24px);
 }
