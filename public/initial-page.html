@@ -22,14 +22,16 @@
         <h1>Have your profile</h1>
         <p>always updated</p>
     </div>
-    <div>
-        <input type="checkbox" class="checkbox" id="chk" />
-        <label class="label" for="chk">
-            <i class="fas fa-moon"></i>
-            <i class="fas fa-sun"></i>
-            <div class="ball"></div>
-        </label>
-    </div>
+    <footer>
+        <div>
+            <input type="checkbox" class="checkbox" id="chk" />
+            <label class="label" for="chk">
+                <img  class="sun" src="image/sunny.svg" alt="">
+                <img class="moon" src="image/moon.svg" alt="">
+                <div class="ball"></div>
+            </label>
+        </div>
+    </footer>
     <script>
         const chk = document.getElementById('chk');
 
@@ -37,5 +39,6 @@
             document.body.classList.toggle('white');
         })
     </script>
+</body>
 
 </html>

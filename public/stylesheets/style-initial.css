@@ -91,7 +91,7 @@ body.white {
 }
 
 .white h1:hover {
-    color: rgb(204, 5, 5);
+    color: rgb(233, 8, 8);
 }
 
 .white p {
@@ -103,7 +103,7 @@ body.white {
 }
 
 .white p:hover {
-    color: rgb(204, 5, 5);
+    color: rgb(233, 8, 8);
 }
 
 .white header {
@@ -115,7 +115,7 @@ body.white {
 }
 
 .white .Profile:hover {
-    color: rgb(204, 5, 5);
+    color: rgb(233, 8, 8);
 }
 
 .checkbox {
@@ -126,7 +126,7 @@ body.white {
 .label {
     margin-top: 200px;
     margin-left: 25px;
-    background-color: #111;
+    background-color: #131313;
     border-radius: 50px;
     cursor: pointer;
     display: flex;
@@ -153,4 +153,17 @@ body.white {
 
 .checkbox:checked+.label .ball {
     transform: translateX(24px);
+}
+
+.white .label {
+    background-color: rgb(31, 111, 148);
+}
+
+.moon {
+    width: 15px;
+    margin-left: -15px;
+}
+
+.sun {
+    width: 18px;
 }
